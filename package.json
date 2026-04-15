@@ -1,0 +1,32 @@
+{
+  "name": "mcp-bijia",
+  "version": "0.1.0",
+  "description": "比价 MCP 服务器 — 中文电商全网最低价查询",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "mcp-bijia": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "比价",
+    "淘宝",
+    "京东",
+    "价格比较",
+    "电商"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  }
+}
